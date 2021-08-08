@@ -1,0 +1,34 @@
+---
+import Icon from '@modulz/radix-icons/astro'
+
+const { size = 15, width = size, height = size, ...more } = Astro.props
+---
+<section>
+	<h3>Typography</h3>
+	<div>
+		<Icon.FontStyleIcon width={width} height={height} aria-label="Font Style" />
+		<Icon.FontItalicIcon width={width} height={height} aria-label="Font Italic" />
+		<Icon.FontRomanIcon width={width} height={height} aria-label="Font Roman" />
+		<Icon.FontBoldIcon width={width} height={height} aria-label="Font Bold" />
+		<Icon.LetterCaseUppercaseIcon width={width} height={height} aria-label="Letter Case Uppercase " />
+		<Icon.LetterCaseCapitalizeIcon width={width} height={height} aria-label="Letter Case Capitalize " />
+		<Icon.LetterCaseLowercaseIcon width={width} height={height} aria-label="Letter Case Lowercase " />
+		<Icon.LetterCaseToggleIcon width={width} height={height} aria-label="Letter Case Toggle " />
+		<Icon.LetterSpacingIcon width={width} height={height} aria-label="Letter Spacing" />
+		<Icon.AlignBaselineIcon width={width} height={height} aria-label="Align Baseline" />
+		<Icon.FontSizeIcon width={width} height={height} aria-label="Font Size" />
+		<Icon.FontFamilyIcon width={width} height={height} aria-label="Font Family" />
+		<Icon.HeadingIcon width={width} height={height} aria-label="Heading" />
+		<Icon.TextIcon width={width} height={height} aria-label="Text" />
+		<Icon.TextNoneIcon width={width} height={height} aria-label="Text None" />
+		<Icon.LineHeightIcon width={width} height={height} aria-label="Line Height" />
+		<Icon.UnderlineIcon width={width} height={height} aria-label="Underline" />
+		<Icon.StrikethroughIcon width={width} height={height} aria-label="Strikethrough" />
+		<Icon.OverlineIcon width={width} height={height} aria-label="Overline" />
+		<Icon.PilcrowIcon width={width} height={height} aria-label="Pilcrow" />
+		<Icon.TextAlignLeftIcon width={width} height={height} aria-label="Text Align Left " />
+		<Icon.TextAlignCenterIcon width={width} height={height} aria-label="Text Align Center " />
+		<Icon.TextAlignRightIcon width={width} height={height} aria-label="Text Align Right " />
+		<Icon.TextAlignJustifyIcon width={width} height={height} aria-label="Text Align Justify " />
+	</div>
+</section>

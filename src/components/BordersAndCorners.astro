@@ -1,0 +1,26 @@
+---
+import Icon from '@modulz/radix-icons/astro'
+
+const { size = 15, width = size, height = size, ...more } = Astro.props
+---
+<section>
+	<h3>Borders and Corners</h3>
+	<div>
+		<Icon.BorderAllIcon width={width} height={height} aria-label="Border All" />
+		<Icon.BorderSplitIcon width={width} height={height} aria-label="Border Split" />
+		<Icon.BorderNoneIcon width={width} height={height} aria-label="Border None" />
+		<Icon.BorderLeftIcon width={width} height={height} aria-label="Border Left" />
+		<Icon.BorderRightIcon width={width} height={height} aria-label="Border Right" />
+		<Icon.BorderTopIcon width={width} height={height} aria-label="Border Top" />
+		<Icon.BorderBottomIcon width={width} height={height} aria-label="Border Bottom" />
+		<Icon.CornersIcon width={width} height={height} aria-label="Corners" />
+		<Icon.CornerTopLeftIcon width={width} height={height} aria-label="Corner Top Left " />
+		<Icon.CornerTopRightIcon width={width} height={height} aria-label="Corner Top Right " />
+		<Icon.CornerBottomLeftIcon width={width} height={height} aria-label="Corner Bottom Left " />
+		<Icon.CornerBottomRightIcon width={width} height={height} aria-label="Corner Bottom Right " />
+		<Icon.BorderStyleIcon width={width} height={height} aria-label="Border Style" />
+		<Icon.BorderSolidIcon width={width} height={height} aria-label="Border Solid" />
+		<Icon.BorderDashedIcon width={width} height={height} aria-label="Border Dashed" />
+		<Icon.BorderDottedIcon width={width} height={height} aria-label="Border Dotted" />
+	</div>
+</section>

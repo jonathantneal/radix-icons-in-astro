@@ -1,0 +1,21 @@
+---
+import Icon from '@modulz/radix-icons/astro'
+
+const { size = 15, width = size, height = size, ...more } = Astro.props
+---
+<section>
+	<h3>Logos</h3>
+	<div>
+		<Icon.ModulzLogoIcon width={width} height={height} aria-label="Modulz Logo" />
+		<Icon.StitchesLogoIcon width={width} height={height} aria-label="Stitches Logo" />
+		<Icon.FigmaLogoIcon width={width} height={height} aria-label="Figma Logo" />
+		<Icon.FramerLogoIcon width={width} height={height} aria-label="Framer Logo" />
+		<Icon.SketchLogoIcon width={width} height={height} aria-label="Sketch Logo" />
+		<Icon.TwitterLogoIcon width={width} height={height} aria-label="Twitter Logo" />
+		<!-- <Icon.JarLogoIcon width={width} height={height} aria-label="IconJar Logo" /> -->
+		<!-- <Icon.GitHubLogoIcon width={width} height={height} aria-label="GitHub Logo" /> -->
+		<Icon.VercelLogoIcon width={width} height={height} aria-label="Vercel Logo" />
+		<!-- <Icon.CodeSandboxLogoIcon width={width} height={height} aria-label="CodeSandbox Logo" /> -->
+		<Icon.NotionLogoIcon width={width} height={height} aria-label="Notion Logo" />
+	</div>
+</section>

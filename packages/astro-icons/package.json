@@ -1,0 +1,15 @@
+{
+  "name": "@modulz/radix-icons",
+  "type": "module",
+  "exports": {
+    "./astro": {
+      "import": "./astro.js"
+    },
+    "./astro.js": {
+      "import": "./astro.js"
+    }
+  },
+  "peerDependencies": {
+    "astro": "^0"
+  }
+}
